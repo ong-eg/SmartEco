@@ -15,3 +15,4 @@ Tecnologias Utilizadas:
 
 Pesquisar sites/apps relacionados com o tema 
 Trazer um pequeno resumo (aprox 6 linhas) para proxima aula contendo os objetivos de desenvolvimento, plataforma e algo inovador ATÉ 09/03
+Não esquecer de enviar no Email
