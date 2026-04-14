@@ -10,10 +10,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 
     <title>SmartEco - Uma Cidade Inteligente</title>
+
+    <script>
+    window.addEventListener("scroll", () => {
+        const header = document.querySelector("header");
+
+    if (window.scrollY > 50) {
+        header.style.background = "#ffffff";
+    } else {
+        header.style.background = "transparent";
+}
+});
+    </script>
 </head>
 <body>
     <header>
-        <h1 class="titulo-header">SMART<span style="color: var(--verde);">ECO</span></h1>
+        <a href="">
+            <h1 class="titulo-header">SMART<span style="color: var(--verde);">ECO</span></h1>
+        </a>
         <nav>
             <ul class="nav-links">
                 <li><a href="#missao">NOSSA MISSÃO</a></li>
@@ -30,9 +44,10 @@
                 <p>Cidades inteligêntes não são apenas sobre tecnologias. São sobre a sobrevivência do nosso habitat.</p>
             </div>
         </section>
-        <section>
-            <h1>Teste</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus repellendus provident corrupti fugit nemo quam, odio quia soluta. Eos cum ullam sint laboriosam dolores. Et dignissimos magni rem soluta molestiae.</p>
+        <section id="missao">
+            <h2>NOSSA MISSÃO</h2>
+            <p>Transformar cidades por meio da tecnologia e da sustentabilidade, promovendo soluções inteligentes que melhorem a qualidade de vida, preservem o meio ambiente e garantam um futuro mais equilibrado para as próximas gerações.</p>
+            <a href="#sobre-nos">VEJA NOSSA VISÃO E VALORES</a>
         </section>
     </main>
 </body>
