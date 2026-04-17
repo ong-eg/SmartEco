@@ -1,66 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="tree.png" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-    />
 
-    <title>SmartEco - Uma Cidade Inteligente</title>
-  </head>
-  <body>
-    <header>
-      <a href="">
-        <h1 class="titulo-header">
-          SMART<span style="color: var(--verde)">ECO</span>
-        </h1>
-      </a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#missao">NOSSA MISSÃO</a></li>
-          <li><a href="#projetos">PROJETOS</a></li>
-          <li><a href="#sobre-nos">SOBRE NÓS</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <img src="hero-riopreto.jpeg" class="hero-img" />
-        <div class="conteudo-hero">
-          <h1>RESTAURAR A NOSSA CIDADE</h1>
-          <p>
-            Cidades inteligêntes não são apenas sobre tecnologias. São sobre a
-            sobrevivência do nosso habitat.
-          </p>
-        </div>
-      </section>
-      <section id="missao">
-        <h2>NOSSA MISSÃO</h2>
-        <p>
-          Transformar cidades por meio da tecnologia e da sustentabilidade,
-          promovendo soluções inteligentes que melhorem a qualidade de vida,
-          preservem o meio ambiente e garantam um futuro mais equilibrado para
-          as próximas gerações.
-        </p>
-        <a href="#sobre-nos">VEJA NOSSA VISÃO E VALORES</a>
-      </section>
-    </main>
-    <script>
-      window.addEventListener("scroll", () => {
-        const header = document.querySelector("header");
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="tree.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+  <title>SmartEco - Uma Cidade Inteligente</title>
+</head>
 
-        if (window.scrollY > 50) {
-          header.style.background = "#ffffff";
-        } else {
-          header.style.background = "transparent";
-        }
-      });
-    </script>
-  </body>
+<body>
+  <header>
+    <a href="#"><h1 class="titulo-header">SMART<span>ECO</span></h1></a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#missao">Nossa Missão</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="hero-riopreto.jpeg" class="hero-img">
+
+      <div class="scroll-indicator"><img src="SetaBaixo.svg" alt="Scroll Indicator"></div>
+
+      <section class="conteudo-hero">
+        <h1>TECNOLOGIA PARA CIDADES MAIS INTELIGENTES</h1>
+        <p>Usamos inovação para melhorar mobilidade, sustentabilidade e qualidade de vida urbana.</p>
+
+        <section class="stats">
+          <div><strong>+</strong><span> Sustentabilidade</span></div>
+          <div><strong>+</strong><span> Inovação</span></div>
+          <div><strong>+</strong><span> Tecnologia</span></div>
+        </section>
+
+        <a href="#missao" class="botao">EXPLORAR</a>
+      </section>
+    </section>
+
+    <section id="missao">
+      <h2>NOSSA MISSÃO</h2>
+      <p>Transformar cidades por meio da tecnologia e da sustentabilidade, promovendo soluções inteligentes que melhoram a qualidade de vida e preservam o meio ambiente.</p>
+      <a href="#sobre">Conheça mais sobre nós</a>
+    </section>
+  </main>
+
+</body>
+
 </html>
