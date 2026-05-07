@@ -13,6 +13,7 @@
   </head>
 
   <body>
+
     <header>
       <a href="#hero" class="titulo-header" aria-label="SmartEco - Página inicial">SMART<span>ECO</span></a>
 
@@ -20,7 +21,7 @@
         <ul class="nav-links">
           <li><a href="#msv">Nossa Missão</a></li>
           <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#sobre-nos">Sobre Nós</a></li>
         </ul>
       </nav>
     </header>
@@ -77,7 +78,7 @@
         </div>
 
         <div class="msv-rodape">
-          <a href="#sobre" class="botao">CONHEÇA MAIS SOBRE NÓS</a>
+          <a href="#sobre-nos" class="botao">CONHEÇA MAIS SOBRE NÓS</a>
         </div>
       </section>
 
@@ -96,7 +97,7 @@
           </div>
 
           <div class="cards" id="card2">
-            <img src="assets/images/AquaSmart.jpeg" alt="AquaSmart" class="projetos-img" />
+            <img src="assets/images/AquaSmart.jpg" alt="AquaSmart" class="projetos-img" />
             <div class="card-conteudo">
               <h3>AquaSmart</h3>
               <p>Monitoramento do consumo de água em tempo real para condomínios e empresas. Identifica pontos de desperdício e envia alertas automáticos para promover o uso consciente do recurso.</p>
@@ -116,9 +117,82 @@
         </div>
       </section>
 
+      <!-- SOBRE NÓS -->
+      <section id="sobre-nos">
+
+        <div class="sobre-intro">
+          <h2>SOBRE NÓS</h2>
+          <p>A SmartEco nasceu da crença de que tecnologia e natureza podem — e devem — caminhar juntas. Somos uma empresa dedicada ao desenvolvimento de soluções inteligentes para cidades mais sustentáveis, eficientes e humanas.</p>
+          <p>Atuamos no planejamento urbano inteligente, monitoramento ambiental e educação em sustentabilidade, conectando dados, pessoas e tecnologia para transformar a realidade das cidades brasileiras, tendo sua sede em São José do Rio Preto.</p>
+        </div>
+
+        <!-- EQUIPE -->
+        <section class="sobre-equipe">
+          <h3>NOSSA EQUIPE</h3>
+          <div class="equipe-grid">
+
+            <div class="membro">
+              <div class="membro-avatar" aria-hidden="true">GS</div>
+              <h4>Gabriel Souza</h4>
+              <span class="membro-cargo">CEO & Fundador</span>
+              <p>Lidera a visão estratégica da SmartEco com foco em inovação urbana. Apaixonado por tecnologia, tem como objetivo construir softwares cada vez mais inteligentes, integrando inteligência artificial para transformar a forma como as cidades funcionam.</p>
+            </div>
+
+            <div class="membro">
+              <div class="membro-avatar" aria-hidden="true">EP</div>
+              <h4>Enzo Pecorare</h4>
+              <span class="membro-cargo">Gerente Executivo</span>
+              <p>Responsável por alinhar as estratégias da empresa com os resultados esperados. Movido pela curiosidade sobre padrões e comportamentos, enxerga nos dados a chave para decisões mais inteligentes e um futuro mais eficiente.</p>
+            </div>
+
+            <div class="membro">
+              <div class="membro-avatar" aria-hidden="true">AA</div>
+              <h4>Arthur Antony</h4>
+              <span class="membro-cargo">Gerente Administrativo</span>
+              <p>Garante que os processos internos da SmartEco fluam com eficiência e organização. Tem na tecnologia sua maior motivação, com o sonho de desenvolver softwares que simplifiquem e melhorem a vida das pessoas.</p>
+            </div>
+
+            <div class="membro">
+              <div class="membro-avatar" aria-hidden="true">MA</div>
+              <h4>Marco Antonio</h4>
+              <span class="membro-cargo">Engenheiro de Software</span>
+              <p>Atua no desenvolvimento das soluções tecnológicas da SmartEco, traduzindo ideias em código funcional. Seu objetivo é criar aplicativos e sites que unam design, performance e propósito.</p>
+            </div>
+
+            <div class="membro">
+              <div class="membro-avatar" aria-hidden="true">JP</div>
+              <h4>João Pedro</h4>
+              <span class="membro-cargo">Engenheiro de Software</span>
+              <p>Desenvolve as interfaces e sistemas que conectam a SmartEco ao mundo. Apaixonado por experiências digitais, sonha em criar aplicativos e sites que marquem a vida de quem os usa.</p>
+            </div>
+
+          </div>
+        </section
+        <!-- CONTATO -->
+        <div class="sobre-contato">
+          <h3>CONTATE-NOS</h3>
+          <div class="contato-links">
+            <a href="https://instagram.com/obiels0" target="_blank" aria-label="Instagram do CEO da SmartEco">
+              📷 @obiels0 (CEO)
+            </a>
+            <a href="mailto:contato@smarteco.com.br" aria-label="E-mail da SmartEco">
+              ✉️ contato@smarteco.com.br
+            </a>
+            <a href="tel:+551799999999" aria-label="Telefone da SmartEco">
+              📞 (17) 4002-8922
+            </a>
+          </div>
+        </div>
+
+      </section>
+
     </main>
 
-    <script>
+    <footer>
+      <p>SmartEco é uma empresa fictícia criada para fins acadêmicos — UNIP 2026 - Site feito por Gabriel Souza</p>
+    </footer>
+
+    <script defer>
       document.querySelectorAll('a[href^="#"]').forEach(function(link) {
         link.addEventListener('click', function(e) {
           e.preventDefault();
