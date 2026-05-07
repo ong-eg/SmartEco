@@ -306,7 +306,7 @@ section {
   font-size: 2rem;
   color: var(--branco);
   margin-bottom: 1rem;
-  padding-top: 10%;
+  padding-top: 5%;
   z-index: 2;
 }
 
@@ -544,7 +544,7 @@ footer {
 @media (max-width: 1024px) {
   /* HERO */
   .conteudo-hero {
-    left: 40px;
+    left: 30px;
     max-width: 500px;
   }
 
@@ -606,14 +606,14 @@ footer {
     justify-content: center;
   }
 
-    .nav-links a {
+  .nav-links a {
     font-size: 0.6rem;
     letter-spacing: 0px;
-}
+  }
 
   /* HERO */
   .conteudo-hero {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .conteudo-hero h1 {
@@ -636,11 +636,11 @@ footer {
 
   /* PROJETOS */
   #projetos h2 {
-    padding-top: 6rem;
+    padding-top: 1rem;
   }
 
   .cards {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   /* SOBRE NÓS */
@@ -681,7 +681,7 @@ footer {
 
   /* HERO */
   .conteudo-hero h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .botao {
@@ -697,7 +697,7 @@ footer {
   /* PROJETOS */
   #projetos h2,
   .sobre-intro h2 {
-    font-size: 1.5rem;
+    font-size: .5rem;
   }
 
   /* SOBRE */
